@@ -1756,10 +1756,18 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		header.special h2 + p {
+		header.special h2 {
 			margin-bottom: 0;
 			padding-top: 1.5em;
+			padding-bottom: 1.5em
 		}
+
+		header.special img{
+				width: 250px;
+				height: auto;
+				margin: 8.5em 0 0 0;
+				position: relative;
+		}		
 
 		header.special .icon {
 			cursor: default;
@@ -2885,6 +2893,13 @@ input, select, textarea {
 					padding-top: 1.25em;
 				}
 
+			header.special img{
+				width: 250px;
+				height: auto;
+				margin: 0;
+				position: relative;
+			}		
+
 		/* Section/Article */
 
 			section {
@@ -3216,6 +3231,13 @@ input, select, textarea {
 					text-align: center;
 				}
 
+				header.special img{
+					width: 250px;
+					height: auto;
+					margin: 0;
+					position: relative;
+				}		
+				
 			footer.major {
 				padding-top: 0;
 			}
@@ -3378,12 +3400,6 @@ input, select, textarea {
 	padding: 0
 }
 
-.intro-img {
-	width: 250px;
-	height: auto;
-	margin: 50px 0 0 0;
-	position: relative;
-}
 @media screen and (max-width: 840px) {
 	.reverse{
 		flex-direction: column-reverse;
