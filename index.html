@@ -1,271 +1,406 @@
 <!DOCTYPE HTML>
 <!--
-	Editorial by HTML5 UP
+	Twenty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Lucas Tan</title>
+		<title>Lucas Tan | Personal Website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/header_logo.png"/>
+		<link rel="icon" href="images/logo/logo_transparent_cropped.png"/>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="index is-preload">
+		<div id="page-wrapper">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-
-							<!-- Header -->
-								<header id="header">
-									<h2>Welcome to my personal website</h2>
-									<ul class="icons">
-										<li><a href="https://github.com/lucastancm96", target="_blank" class="icon brands fa-github" style="font-size:24px"><span class="label">GitHub</span></a></li>
-										<li><a href="https://www.linkedin.com/in/cheeming-tan/", target="_blank" class="icon brands fa-linkedin" style="font-size:24px"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</header>
-
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Hi, I'm Lucas Tan</h1>
-											<p>Data Analysis | Front End | Digital Marketing</p>
-										</header>
-										<p>A MSc Business Analytics student at The University of Manchester that is seeking for job opportunities in the data science field.</p>
-										<p>Graduated with BSc. Marketing, I've always wanted to solve businesses problems using data analytics approach and this has led me to pursue my current degree.</p>
-										<p>In the past year, I've gained essential data science knowledge including but not limited to - programming with Python, R and SQL; statistical modelling; machine learning techniques; and operational research. Closing to the end of my studies, I am now ready to land my first job as a data scientist.</p>
-										<ul class="actions">
-											<li><a href="#portfolio" class="button big">View My Portfolios</a></li>
+			<!-- Header -->
+			<!-- Change navigation bar padding at "header alt" and "header nav"-->
+				<header id="header" class="alt">
+					<a href="index.html" class="header-link"><img src="images/logo/logo_transparent_cropped.png" alt="" class="header-logo"/></a>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Welcome</a></li>
+							<li class="submenu">
+								<a href="#">Explore</a>
+								<ul>
+									<!--
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									-->
+									<li><a href="assets/docs/lucas_cv.pdf" target="_blank">Resume</a></li>
+									<!--
+									<li class="submenu">
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Dolore Sed</a></li>
+											<li><a href="#">Consequat</a></li>
+											<li><a href="#">Lorem Magna</a></li>
+											<li><a href="#">Sed Magna</a></li>
+											<li><a href="#">Ipsum Nisl</a></li>
 										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/profile/profpic01.jpg" alt="" style="width:80%; height:80%"/>
-									</span>
-								</section>
+									</li>
+									-->
+								</ul>
+							</li>
+							<li><a href="#cta" class="button primary">Connect</a></li>
+						</ul>
+					</nav>
+				</header>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Skills & Tools</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class='ex_icon fab fa-python'></span>
-											<div class="content">
-												<h3>Python</h3>
-												<p>Familiar with libraries including Pandas, Numpy, Scikit-Learn, Seaborn, Matplotlib, Plotly, BeautifulSoup, Selenium.</p>
-											</div>
-										</article>
-										<article>
-											<span class='ex_icon fab fa-r-project'></span>
-											<div class="content">
-												<h3>R</h3>
-												<p>Able to perform statistical analysis, modelling and visualization using ggplot2.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-database"></span>
-											<div class="content">
-												<h3>SQL</h3>
-												<p>Build database using SQLite. Create, modify and delete data through SQL or Python.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-table"></span>
-											<div class="content">
-												<h3>Tableau</h3>
-												<p>Data pre-processing, table calculation, visualization and dashboard building.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon brands fa-html5"></span>
-											<div class="content">
-												<h3>HTML5</h3>
-												<p>Build website through HTML5 and other CMS such as Wordpress as well as tools like Elementor and WooCommerce.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon brands fa-css3-alt"></span>
-											<div class="content">
-												<h3>CSS3</h3>
-												<p>Integration with HTML file for styling or creating responsive website.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon brands fa-facebook"></span>
-											<div class="content">
-												<h3>Facebook Ads Manager</h3>
-												<p>Online advertising (Facebook, Instagram & Messenger), events tracking (Facebook Pixel) and remarketing.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon brands fa-google"></span>
-											<div class="content">
-												<h3>Google Ads</h3>
-												<p>Experience with Search and Display network campaign, conversion tracking and budget optimization.</p>
-											</div>
-										</article>
-									</div>
-								</section>
+			<!-- Banner -->
+				<section id="banner">
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2 id="portfolio">My Portfolios</h2>
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+							<h2>Welcome</h2>
+						</header>
+						<p>Hi everyone, I am Lucas. 
+						<br />
+						You can find out more
+						<br />
+						about me at here.
+						</p>
+						<footer>
+							<ul class="buttons stacked">
+								<li><a href="#main" class="button fit scrolly">Explore My Profile</a></li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container" data-aos="fade-up">
+						<span class="icon brands fa-canadian-maple-leaf	" style="color:#DA3929; font-size: 0.5rem; line-height: 6.5em"></span>
+						<div class="row reverse">
+							<div class="col-8 col-12-narrower"> <!-- col-8 when on desktop and col-12-narrower when on mobile-->
+								<h2>A quick introduction about myself.</h2>
+								<p>A BSc. Marketing undergrad that stumbled into the data science field during internships. After conducting deliberate research, I became passionate about data science and decided to pursue my master in this sphere.</p>
+									<p>Currently pursuing MSc. Business Analytics at The University of Manchester, I aspire to become a data scientist that help solve businesses problems through data analytics along with my marketing knowledge.</p>
+									<p>In the past year, I've gained essential data science knowledge including data analysis with Python, R and SQL; statistical modelling; machine learning techniques; operational research and more. Coming to the end of my studies, I am now ready to partake my first data scientist role.</p>
+							</div>
+							<div class="col-1 col-12-narrower">
+								<img src="images/profile/profile_picture.jpg" class="intro-img"/>
+							</div>
+						</div>
+					</header>
+
+					<!-- Discard Section -->
+					<!--
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-8 col-12-narrower">
+
+									<header>
+										<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
 									</header>
-									<div class="posts">
-										<article>
-											<a href="https://nbviewer.jupyter.org/github/lucastancm96/principal_component_analysis/blob/master/iris.ipynb" class="image" target="_blank"><img src="images/portfolios/iris.png" alt=""/></a>
+									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+									<footer>
+										<ul class="buttons">
+											<li><a href="#" class="button">Find Out More</a></li>
+										</ul>
+									</footer>
+
+								</div>
+								<div class="col-4 col-12-narrower imp-narrower">
+
+									<ul class="featured-icons">
+										<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
+										<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
+										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
+										<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
+										<li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
+										<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
+									</ul>
+
+								</div>
+							</div>
+						</section>
+					-->
+
+					<!-- One -->
+						<section class="wrapper style1 container special" data-aos="fade-up">
+							<div>
+								<h2>My Expertise</h2>
+							</div>
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-chart-line"></span>
+										<header>
+											<h3>Data Analysis</h3>
+										</header>
+										<p>Data preprocessing, Exploratory Data Analysis (EDA), statistical analysis, predictive modelling, data visualization and decision making.</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-code"></span>
+										<header>
+											<h3>Front End</h3>
+										</header>
+										<p>Web development and responsive web design using HTML5, CSS3 and CMS such as WordPress, Elementor and WooCommerce.</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-ad"></span>
+										<header>
+											<h3>Digital Marketing</h3>
+										</header>
+										<p>Social media marketing and multi-platform online advertising through Facebook Business Manager and Google Ads.</p>
+									</section>
+
+								</div>
+							</div>
+						</section>
+
+					<!-- Two -->
+					<section class="wrapper style2 special" data-aos="fade-up">
+						<div>
+							<h2>Skills & Tools</h2>
+						</div>
+							<div class="row">
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-right">
+										<span class="icon brands alt major fa-python"></span>
+										<header>
+											<h3>Python</h3>
+										</header>
+										<p>Familiar with libraries including Pandas, Numpy, Scikit-Learn, Seaborn, Matplotlib, Plotly, BeautifulSoup, Selenium.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-left">
+										<span class="icon brands alt major fa-r-project"></span>
+										<header>
+											<h3>R</h3>
+										</header>
+										<p>Able to perform statistical analysis, modelling and visualization using ggplot2.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-right">
+										<span class="icon solid alt major fa-database"></span>
+										<header>
+											<h3>SQL</h3>
+										</header>
+										<p>Build database using SQLite. Create, modify and delete data through SQL or Python.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+									<section data-aos="fade-left">
+										<span class="icon solid alt major fa-table"></span>
+										<header>
+											<h3>Tableau</h3>
+										</header>
+										<p>Data pre-processing, table calculation, visualization and dashboard building.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-right">
+										<span class="icon brands alt major fa-html5"></span>
+										<header>
+											<h3>HTML5</h3>
+										</header>
+										<p>Build website through HTML5 and other CMS such as Wordpress as well as tools like Elementor and WooCommerce.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-left">
+										<span class="icon brands alt major fa-css3"></span>
+										<header>
+											<h3>CSS3</h3>
+										</header>
+										<p>Integration with HTML file for styling or creating responsive website.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-right">
+										<span class="icon brands alt major fa-facebook"></span>
+										<header>
+											<h3>Facebook Business Manager</h3>
+										</header>
+										<p>Online advertising (Facebook, Instagram & Messenger), events tracking (Facebook Pixel) and remarketing.</p>
+									</section>
+
+								</div>
+								<div class="col-3 col-6">
+
+									<section data-aos="fade-left">
+										<span class="icon brands alt major fa-google"></span>
+										<header>
+											<h3>Google Ads</h3>
+										</header>
+										<p>Experience with Search and Display network campaign, conversion tracking and budget optimization.</p>
+									</section>
+
+								</div>
+							</div>
+					</section>
+
+					
+
+					<!-- Three -->
+						<section class="wrapper style3 container special" data-aos="fade-up"> 
+
+							<header class="major">
+								<h2>Projects & Portfolios</h2>
+							</header>
+
+							<div class="row">
+								<div class="col-6 col-12-narrower">
+
+									<section data-aos="fade-right">
+										<a href="https://nbviewer.jupyter.org/github/lucastancm96/principal_component_analysis/blob/master/iris.ipynb" class="image featured" target="_blank"><img src="images/portfolios/pfl01.png" alt="" /></a>
+										<header>
 											<h3>Iris Dataset</h3>
-											<p>Demonstrating data reduction through Principal Component Analysis (PCA).</p>
-											<ul class="actions">
-												<li><a href="https://nbviewer.jupyter.org/github/lucastancm96/principal_component_analysis/blob/master/iris.ipynb" class="button" target="_blank">View Code</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/lucastancm96/boston_housing_price_prediction/blob/master/gb_algorithm.ipynb" class="image" target="_blank"><img src="images/portfolios/decision_tree.png" alt="" style="width:115%; height:115%"/></a>
+										</header>
+										<p>Demonstrating data reduction through Principal Component Analysis (PCA).</p>
+										<ul class="section3-button">
+											<li><a href="https://nbviewer.jupyter.org/github/lucastancm96/principal_component_analysis/blob/master/iris.ipynb" class="button" target="_blank">View Project</a></li>
+										</ul>
+									</section>
+
+								</div>
+								<div class="col-6 col-12-narrower">
+
+									<section data-aos="fade-left">
+										<a href="https://github.com/lucastancm96/boston_housing_price_prediction/blob/master/gb_algorithm.ipynb" class="image featured" target="_blank"><img src="images/portfolios/pfl02.png" alt="" /></a>
+										<header>
 											<h3>Boston Housing-Price Dataset</h3>
-											<p>Build, visualize and compare tree-based machine learning model including decision tree, random forest and gradient boosting through Scikit-Learn.</p>
-											<ul class="actions">
-												<li><a href="https://github.com/lucastancm96/boston_housing_price_prediction/blob/master/gb_algorithm.ipynb" class="button" target="_blank">View Code</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://github.com/lucastancm96/Web-Scraping" class="image" target="_blank"><img src="images/portfolios/scrape.jpg" alt="" style="width:90%; height:90%"/></a>
-											<h3>Web Scraping</h3>
-											<p>Scrape E-commerce product page through Selenium.</p>
-											<ul class="actions">
-												<li><a href="https://github.com/lucastancm96/Web-Scraping" class="button" target="_blank">View Code</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://lucastancm96.github.io/iwrap_web_development/" class="image" target="_blank"><img src="images/portfolios/wdm.png" alt="" style="width:113%; height:113%"/></a>
+										</header>
+										<p>Build, visualize and compare tree-based machine learning model including decision tree, random forest and gradient boosting through Scikit-Learn.</p>
+										<ul class="section3-button">
+											<li><a href="https://github.com/lucastancm96/boston_housing_price_prediction/blob/master/gb_algorithm.ipynb" class="button" target="_blank">View Project</a></li>
+										</ul>
+									</section>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-6 col-12-narrower">
+
+									<section data-aos="fade-right">
+										<a href="https://github.com/lucastancm96/Web-Scraping" class="image featured" target="_blank"><img src="images/portfolios/pfl03.png" alt="" /></a>
+										<header>
+											<h3>E-Commerce Web Scraping</h3>
+										</header>
+										<p>Scrape E-commerce product page through Selenium.</p>
+										<ul class="section3-button">
+											<li><a href="https://github.com/lucastancm96/Web-Scraping" class="button" target="_blank">View Project</a></li>
+										</ul>
+									</section>
+
+								</div>
+								<div class="col-6 col-12-narrower">
+
+									<section data-aos="fade-left">
+										<a href="https://lucastancm96.github.io/iwrap_web_development/" class="image featured" target="_blank"><img src="images/portfolios/pfl04.png" alt="" /></a>
+										<header>
 											<h3>Web Development</h3>
-											<p>Build a website for a pseudo phone case online shop using HTML and CSS. Visit <a href="https://github.com/lucastancm96/iwrap_web_development" target="_blank">GitHub</a> for project files.</p>
-											<ul class="actions">
-												<li><a href="https://lucastancm96.github.io/iwrap_web_development/" class="button" target="_blank">View Website</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
+										</header>
+										<p>Build a website for a pseudo phone case online shop using HTML and CSS. Visit <a href="https://github.com/lucastancm96/iwrap_web_development" target="_blank">GitHub</a> for project files.</p>
+										<ul class="section3-button">
+											<li><a href="https://lucastancm96.github.io/iwrap_web_development/" class="button" target="_blank">View Website</a></li>
+										</ul>
+									</section>
 
-						</div>
-					</div>
+								</div>
+							</div>
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+						</section>
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
+				</article>
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="#">Blogs</a></li>
-										<!-- 
-										<li><a href="elements.html">Elements</a></li> -->
-										<li>
-										<!--
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
-										-->
-									</ul>
-								</nav>
+			<!-- CTA -->
+				<section id="cta" data-aos="fade-up">
 
-							<!-- Section -->
-							<!--
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
+					<header>
+						<h2>Connect with me</h2>
+						<p>If you are interested with my profile, feel free to reach out to me anytime.</p>
+					</header>
+					<footer>
+						<ul class="buttons">
+							<li><a href="https://www.linkedin.com/in/cheeming-tan/" class="button primary" target="_blank">Connect on Linkedin</a></li>
+							<li><a href="mailto: tancm96@gmail.com" class="button" target="_blank">Drop me an Email</a></li>
+						</ul>
+					</footer>
 
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
-							-->
+				</section>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>If you are interest to connect with me, please feel free to reach me with my contact information as below. </p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto: tancm96@gmail.com" target="_blank">tancm96@gmail.com</a></li>
-										<li class="icon solid fa-phone">+(44) 7761 041552</li>
-										<li class="icon solid fa-home">George Kenyon Hall<br/>
-											Off Booth Street East<br/>
-											Manchester, UK<br />
-										</li>
-									</ul>
-								</section>
+			<!-- Footer -->
+				<footer id="footer">
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; 2020 Lucas Tan. All rights reserved.</p>
-								</footer>
+					<ul class="icons">
+						<li><a href="https://github.com/lucastancm96" class="icon brands circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/cheeming-tan/" class="icon brands circle fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto: tancm96@gmail.com" class="icon solid circle fa-envelope" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<!--
+						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+						-->
+					</ul>
 
-						</div>
-					</div>
+					<ul class="copyright">
+						<li>&copy; 2020 Lucas Tan. All rights reserved.</li>
+					</ul>
 
-			</div>
+				</footer>
+
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			  AOS.init({
+				  offset: 400, // offset (in px) from the original trigger point
+				  delay: 0, // values from 0 to 3000, with step 50ms
+				  duration: 1000 // values from 0 to 3000, with step 50ms
+				});
+			</script>
 
 	</body>
 </html>
