@@ -3202,7 +3202,7 @@ input, select, textarea {
 			}
 
 			p {
-				text-align: center;
+				text-align: left;
 			}
 
 		/* Section/Article */
@@ -3409,6 +3409,18 @@ input, select, textarea {
 		width: 100%;
 		height: 300px;
 	}	
+
+	.style1 p{
+		text-align: left;
+	}
+
+	.style2 p{
+		text-align: left;
+	}
+
+	.style3 p{
+		text-align: left;
+	}
 }
 
 @media screen and (max-width: 1280px) {
